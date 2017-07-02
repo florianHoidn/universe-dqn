@@ -2,6 +2,9 @@ import gym
 import universe
 from baselines import deepq
 import time
+import universe_env_wrapper
+import universe_pyglet_controller
+import altered_learn
 
 def main():
     env = gym.make('flashgames.NeonRace-v0')
