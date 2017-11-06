@@ -1,4 +1,4 @@
-import baselines.common.atari_wrappers_deprecated as baseline
+from baselines.common.atari_wrappers import wrap_deepmind
 import gym
 import numpy as np
 
